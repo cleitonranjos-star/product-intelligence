@@ -798,3 +798,150 @@
 2025-10-15 10:31:59.890 [info] Finished indexing repository.
 2025-10-15 10:31:59.890 [info] Indexing job successfully done or aborted.
 2025-10-15 10:34:06.820 [error] Error getting user commits: Failed to execute git
+2025-10-15 10:37:47.755 [info] multiCodebaseIndexingJob dispose
+2025-10-15 10:37:47.757 [info] Aborting indexing job.
+2025-10-15 10:37:47.757 [info] Setting global status from status tracker: synced
+2025-10-15 10:37:47.757 [info] Doing a startup handshake.
+2025-10-15 10:37:47.878 [info] Finished computing merkle tree in 111.70824399986304 ms.
+2025-10-15 10:37:47.878 [info] Doing the initial handshake with hash: fcbef7d936c74d2b0f6502e3e4dab43933b8c999596b766e0d5356264dd73564
+2025-10-15 10:37:47.881 [info] Computed simhash vector of length: 256
+2025-10-15 10:37:47.881 [info] Path key hash: bfaa47f31ad8c0c88db1f541cdbc2c0250f5551276f6111cac01d75fbefbd758
+2025-10-15 10:37:47.881 [info] Handshake start
+2025-10-15 10:37:48.049 [info] Handshake timing: 168.2608969998546, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-10-15 10:37:48.049 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-10-15 10:37:48.049 [info] Starting fast remote sync.
+2025-10-15 10:37:48.052 [info] Total num embeddable files: 388
+2025-10-15 10:37:48.053 [info] Root hash: fcbef7d936c74d2b0f6502e3e4dab43933b8c999596b766e0d5356264dd73564
+2025-10-15 10:37:48.054 [info] In the out of sync case.
+2025-10-15 10:37:48.061 [info] Waiting on semaphore to be released 1
+2025-10-15 10:37:48.255 [info] Waiting on semaphore to be released 1
+2025-10-15 10:37:48.455 [info] Waiting on semaphore to be released 1
+2025-10-15 10:37:48.657 [info] Waiting on semaphore to be released 1
+2025-10-15 10:37:48.658 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:37:48.858 [info] Waiting on semaphore to be released 1
+2025-10-15 10:37:48.859 [info] [startSync]: sending sync merkle subtree batch of size 4
+2025-10-15 10:37:49.060 [info] Waiting on semaphore to be released 1
+2025-10-15 10:37:49.060 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:37:49.256 [info] Waiting on semaphore to be released 1
+2025-10-15 10:37:49.459 [info] Waiting on semaphore to be released 1
+2025-10-15 10:37:49.459 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:37:49.659 [info] Waiting on semaphore to be released 1
+2025-10-15 10:37:49.659 [info] [startSync]: sending sync merkle subtree batch of size 3
+2025-10-15 10:37:49.860 [info] setting numJobsToGo to 22
+2025-10-15 10:37:49.861 [info] [startSync]: numJobs: 22
+2025-10-15 10:37:49.863 [info] Uploading 22 files.
+2025-10-15 10:37:49.864 [info] Total number of files to embed: 388
+2025-10-15 10:37:49.864 [info] Not aborted
+2025-10-15 10:37:49.864 [info] Starting while loop.
+2025-10-15 10:37:49.916 [info] syncing batch of 2 files and 239 bytes
+2025-10-15 10:37:50.559 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Analytics-repo/docs
+2025-10-15 10:37:50.559 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Analytics-repo/README.md
+2025-10-15 10:37:50.561 [info] syncing batch of 4 files and 126 bytes
+2025-10-15 10:37:51.529 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Analytics-repo/sqlmesh/tests
+2025-10-15 10:37:51.529 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Analytics-repo/sqlmesh/models
+2025-10-15 10:37:51.529 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Analytics-repo/Metabase/dashboards
+2025-10-15 10:37:51.529 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Analytics-repo/Metabase/queries
+2025-10-15 10:37:51.532 [info] syncing batch of 8 files and 377938 bytes
+2025-10-15 10:37:54.435 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/remoteexthost.log
+2025-10-15 10:37:54.435 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/vscode.git/Git.log
+2025-10-15 10:37:54.435 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+2025-10-15 10:37:54.435 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval/embeddable_files.txt
+2025-10-15 10:37:54.435 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/History/-4dc3dbe9/entries.json
+2025-10-15 10:37:54.435 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/History/-4dc3dbe9/SuNO.md
+2025-10-15 10:37:54.435 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/History/-7749c9f3/entries.json
+2025-10-15 10:37:54.435 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/History/-7749c9f3/TTDx
+2025-10-15 10:37:54.438 [info] syncing batch of 8 files and 794 bytes
+2025-10-15 10:37:55.417 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/History/-76505428/0r6e
+2025-10-15 10:37:55.417 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/History/-76505428/entries.json
+2025-10-15 10:37:55.417 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/History/5e1d7bfb/entries.json
+2025-10-15 10:37:55.417 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/History/5e1d7bfb/D34S
+2025-10-15 10:37:55.417 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/History/2f14ee8d/emV8
+2025-10-15 10:37:55.417 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/History/2f14ee8d/entries.json
+2025-10-15 10:37:55.417 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/History/-7d5b8002/5hKG
+2025-10-15 10:37:55.418 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/History/-7d5b8002/entries.json
+2025-10-15 10:37:55.585 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-10-15 10:37:55.862 [info] Finished indexing repository.
+2025-10-15 10:37:55.863 [info] Indexing job successfully done or aborted.
+2025-10-15 10:43:42.284 [info] multiCodebaseIndexingJob dispose
+2025-10-15 10:43:42.284 [info] Aborting indexing job.
+2025-10-15 10:43:42.284 [info] Setting global status from status tracker: synced
+2025-10-15 10:43:42.284 [info] Doing a startup handshake.
+2025-10-15 10:43:42.307 [info] Finished computing merkle tree in 15.288138000061736 ms.
+2025-10-15 10:43:42.309 [info] Doing the initial handshake with hash: aabfce64d7bb9255f436a819dfca1e7e0b63fc2be3738ef6bfeddcc2d85e277d
+2025-10-15 10:43:42.314 [info] Computed simhash vector of length: 256
+2025-10-15 10:43:42.314 [info] Path key hash: bfaa47f31ad8c0c88db1f541cdbc2c0250f5551276f6111cac01d75fbefbd758
+2025-10-15 10:43:42.314 [info] Handshake start
+2025-10-15 10:43:42.477 [info] Handshake timing: 165.44236099999398, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-10-15 10:43:42.477 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-10-15 10:43:42.477 [info] Starting fast remote sync.
+2025-10-15 10:43:42.478 [info] Total num embeddable files: 388
+2025-10-15 10:43:42.479 [info] Root hash: aabfce64d7bb9255f436a819dfca1e7e0b63fc2be3738ef6bfeddcc2d85e277d
+2025-10-15 10:43:42.479 [info] In the out of sync case.
+2025-10-15 10:43:42.484 [info] Waiting on semaphore to be released 1
+2025-10-15 10:43:42.680 [info] Waiting on semaphore to be released 1
+2025-10-15 10:43:42.880 [info] Waiting on semaphore to be released 1
+2025-10-15 10:43:43.082 [info] Waiting on semaphore to be released 1
+2025-10-15 10:43:43.283 [info] Waiting on semaphore to be released 1
+2025-10-15 10:43:43.283 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:43:43.482 [info] Waiting on semaphore to be released 1
+2025-10-15 10:43:43.482 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:43:43.684 [info] Waiting on semaphore to be released 1
+2025-10-15 10:43:43.684 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:43:43.885 [info] Waiting on semaphore to be released 1
+2025-10-15 10:43:43.885 [info] [startSync]: sending sync merkle subtree batch of size 3
+2025-10-15 10:43:44.083 [info] setting numJobsToGo to 3
+2025-10-15 10:43:44.083 [info] [startSync]: numJobs: 3
+2025-10-15 10:43:44.084 [info] Uploading 3 files.
+2025-10-15 10:43:44.085 [info] Total number of files to embed: 388
+2025-10-15 10:43:44.085 [info] Not aborted
+2025-10-15 10:43:44.085 [info] Starting while loop.
+2025-10-15 10:43:44.137 [info] syncing batch of 2 files and 200064 bytes
+2025-10-15 10:43:46.575 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/vscode.git/Git.log
+2025-10-15 10:43:46.576 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+2025-10-15 10:43:46.815 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval/high_level_folder_description.txt
+2025-10-15 10:43:46.976 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-10-15 10:43:47.527 [info] Finished indexing repository.
+2025-10-15 10:43:47.527 [info] Indexing job successfully done or aborted.
+2025-10-15 10:44:09.502 [error] Error getting user commits: Failed to execute git
+2025-10-15 10:49:38.771 [info] multiCodebaseIndexingJob dispose
+2025-10-15 10:49:38.771 [info] Aborting indexing job.
+2025-10-15 10:49:38.772 [info] Setting global status from status tracker: synced
+2025-10-15 10:49:38.772 [info] Doing a startup handshake.
+2025-10-15 10:49:38.801 [info] Finished computing merkle tree in 19.289255999960005 ms.
+2025-10-15 10:49:38.803 [info] Doing the initial handshake with hash: 27050df6f97dc1ba108be019a5b1437022168b96d22f9ff8fe3ea6e2010e1ce4
+2025-10-15 10:49:38.810 [info] Computed simhash vector of length: 256
+2025-10-15 10:49:38.810 [info] Path key hash: bfaa47f31ad8c0c88db1f541cdbc2c0250f5551276f6111cac01d75fbefbd758
+2025-10-15 10:49:38.810 [info] Handshake start
+2025-10-15 10:49:38.987 [info] Handshake timing: 180.75975600001402, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-10-15 10:49:38.987 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-10-15 10:49:38.987 [info] Starting fast remote sync.
+2025-10-15 10:49:38.988 [info] Total num embeddable files: 388
+2025-10-15 10:49:38.988 [info] Root hash: 27050df6f97dc1ba108be019a5b1437022168b96d22f9ff8fe3ea6e2010e1ce4
+2025-10-15 10:49:38.989 [info] In the out of sync case.
+2025-10-15 10:49:38.991 [info] Waiting on semaphore to be released 1
+2025-10-15 10:49:39.189 [info] Waiting on semaphore to be released 1
+2025-10-15 10:49:39.389 [info] Waiting on semaphore to be released 1
+2025-10-15 10:49:39.592 [info] Waiting on semaphore to be released 1
+2025-10-15 10:49:39.792 [info] Waiting on semaphore to be released 1
+2025-10-15 10:49:39.792 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:49:39.993 [info] Waiting on semaphore to be released 1
+2025-10-15 10:49:39.993 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:49:40.192 [info] Waiting on semaphore to be released 1
+2025-10-15 10:49:40.192 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:49:40.392 [info] Waiting on semaphore to be released 1
+2025-10-15 10:49:40.392 [info] [startSync]: sending sync merkle subtree batch of size 3
+2025-10-15 10:49:40.591 [info] setting numJobsToGo to 3
+2025-10-15 10:49:40.591 [info] [startSync]: numJobs: 3
+2025-10-15 10:49:40.591 [info] Uploading 3 files.
+2025-10-15 10:49:40.592 [info] Total number of files to embed: 388
+2025-10-15 10:49:40.592 [info] Not aborted
+2025-10-15 10:49:40.592 [info] Starting while loop.
+2025-10-15 10:49:40.643 [info] syncing batch of 2 files and 204112 bytes
+2025-10-15 10:49:43.484 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/vscode.git/Git.log
+2025-10-15 10:49:43.484 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+2025-10-15 10:49:44.903 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval/embeddable_files.txt
+2025-10-15 10:49:45.237 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-10-15 10:49:46.069 [info] Finished indexing repository.
+2025-10-15 10:49:46.070 [info] Indexing job successfully done or aborted.
+2025-10-15 10:52:02.579 [info] multiCodebaseIndexingJob dispose
+2025-10-15 10:52:02.579 [info] Aborting indexing job.

@@ -18,3 +18,225 @@ Extension host agent listening on 37827
 [10:14:11] [127.0.0.1][f43129d4][ManagementConnection] New connection established.
 [10:14:11] [127.0.0.1][d69aa4e5][ExtensionHostConnection] New connection established.
 [10:14:11] [127.0.0.1][d69aa4e5][ExtensionHostConnection] <2848> Launched Extension Host Process.
+[10:52:02] [127.0.0.1][f43129d4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:52:02] [127.0.0.1][d69aa4e5][ExtensionHostConnection] <2848> Extension Host Process exited with code: 0, signal: null.
+[10:55:13] [127.0.0.1][2d538db9][ManagementConnection] New connection established.
+[10:55:13] [127.0.0.1][2117e93b][ExtensionHostConnection] New connection established.
+[10:55:13] [127.0.0.1][2117e93b][ExtensionHostConnection] <6486> Launched Extension Host Process.
+[10:55:13] Getting extensions control
+[10:56:09] [127.0.0.1][2d538db9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:56:09] [127.0.0.1][2117e93b][ExtensionHostConnection] <6486> Extension Host Process exited with code: 0, signal: null.
+[10:56:12] [127.0.0.1][269009f2][ManagementConnection] New connection established.
+[10:56:12] [127.0.0.1][5dfdea52][ExtensionHostConnection] New connection established.
+[10:56:12] [127.0.0.1][5dfdea52][ExtensionHostConnection] <6768> Launched Extension Host Process.
+[09:56:52] [127.0.0.1][269009f2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:56:52] [127.0.0.1][5dfdea52][ExtensionHostConnection] <6768> Extension Host Process exited with code: 0, signal: null.
+[09:57:00] [127.0.0.1][38182113][ManagementConnection] New connection established.
+[09:57:00] [127.0.0.1][46618114][ExtensionHostConnection] New connection established.
+[09:57:00] [127.0.0.1][46618114][ExtensionHostConnection] <50222> Launched Extension Host Process.
+[09:57:00] Getting extensions control
+[09:57:13] [127.0.0.1][38182113][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:57:13] [127.0.0.1][46618114][ExtensionHostConnection] <50222> Extension Host Process exited with code: 0, signal: null.
+[09:57:25] [127.0.0.1][e60f6840][ManagementConnection] New connection established.
+[09:57:25] [127.0.0.1][ee72d2b9][ExtensionHostConnection] New connection established.
+[09:57:25] [127.0.0.1][ee72d2b9][ExtensionHostConnection] <50476> Launched Extension Host Process.
+[09:57:30] [127.0.0.1][e60f6840][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:57:30] [127.0.0.1][ee72d2b9][ExtensionHostConnection] <50476> Extension Host Process exited with code: 0, signal: null.
+[10:42:52] [127.0.0.1][5eb4701a][ManagementConnection] New connection established.
+[10:42:52] [127.0.0.1][48e36420][ExtensionHostConnection] New connection established.
+[10:42:52] [127.0.0.1][48e36420][ExtensionHostConnection] <50762> Launched Extension Host Process.
+[10:42:52] Getting extensions control
+[10:43:10] [127.0.0.1][5eb4701a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:43:10] [127.0.0.1][48e36420][ExtensionHostConnection] <50762> Extension Host Process exited with code: 0, signal: null.
+[10:43:12] [127.0.0.1][6bd17344][ManagementConnection] New connection established.
+[10:43:12] [127.0.0.1][7b7a2871][ExtensionHostConnection] New connection established.
+[10:43:12] [127.0.0.1][7b7a2871][ExtensionHostConnection] <50998> Launched Extension Host Process.
+[10:48:51] [127.0.0.1][6bd17344][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:48:52] [127.0.0.1][7b7a2871][ExtensionHostConnection] <50998> Extension Host Process exited with code: 0, signal: null.
+[10:48:57] [127.0.0.1][dcc07b73][ManagementConnection] New connection established.
+[10:48:57] [127.0.0.1][a73e84b7][ExtensionHostConnection] New connection established.
+[10:48:57] [127.0.0.1][a73e84b7][ExtensionHostConnection] <53626> Launched Extension Host Process.
+[10:48:57] Getting extensions control
+[10:51:49] [127.0.0.1][dcc07b73][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:51:49] [127.0.0.1][a73e84b7][ExtensionHostConnection] <53626> Extension Host Process exited with code: 0, signal: null.
+[10:51:54] [127.0.0.1][9ff1823f][ManagementConnection] New connection established.
+[10:51:54] [127.0.0.1][03b23fd2][ExtensionHostConnection] New connection established.
+[10:51:54] [127.0.0.1][03b23fd2][ExtensionHostConnection] <54819> Launched Extension Host Process.
+[16:45:53] Getting extensions control
+[16:46:04] Getting Manifest... ms-python.python
+[16:46:05] Installing extension: ms-python.python {
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: vn {
+    scheme: 'file',
+    authority: '',
+    path: '/home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    _fsPath: '/home/cleitonanjos/.cursor-server/extensions/extensions.json'
+  },
+  productVersion: {
+    version: '1.7.46',
+    date: '2025-10-14T01:21:46.830Z',
+    vscodeVersion: '1.99.3'
+  }
+}
+[16:46:06] Getting Manifest... anysphere.cursorpyright
+[16:46:07] Getting Manifest... ms-toolsai.jupyter
+[16:46:08] Getting Manifest... ms-toolsai.jupyter-renderers
+[16:46:08] Getting Manifest... ms-toolsai.jupyter-keymap
+[16:46:09] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+[16:46:10] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+[16:46:11] Installing extension: anysphere.cursorpyright {
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: vn {
+    scheme: 'file',
+    authority: '',
+    path: '/home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    _fsPath: '/home/cleitonanjos/.cursor-server/extensions/extensions.json'
+  },
+  productVersion: {
+    version: '1.7.46',
+    date: '2025-10-14T01:21:46.830Z',
+    vscodeVersion: '1.99.3'
+  },
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[16:46:11] Installing extension: ms-toolsai.jupyter {
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: vn {
+    scheme: 'file',
+    authority: '',
+    path: '/home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    _fsPath: '/home/cleitonanjos/.cursor-server/extensions/extensions.json'
+  },
+  productVersion: {
+    version: '1.7.46',
+    date: '2025-10-14T01:21:46.830Z',
+    vscodeVersion: '1.99.3'
+  },
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[16:46:11] Installing extension: ms-toolsai.jupyter-renderers {
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: vn {
+    scheme: 'file',
+    authority: '',
+    path: '/home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    _fsPath: '/home/cleitonanjos/.cursor-server/extensions/extensions.json'
+  },
+  productVersion: {
+    version: '1.7.46',
+    date: '2025-10-14T01:21:46.830Z',
+    vscodeVersion: '1.99.3'
+  },
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[16:46:11] Installing extension: ms-toolsai.jupyter-keymap {
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: vn {
+    scheme: 'file',
+    authority: '',
+    path: '/home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    _fsPath: '/home/cleitonanjos/.cursor-server/extensions/extensions.json'
+  },
+  productVersion: {
+    version: '1.7.46',
+    date: '2025-10-14T01:21:46.830Z',
+    vscodeVersion: '1.99.3'
+  },
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[16:46:11] Installing extension: ms-toolsai.vscode-jupyter-cell-tags {
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: vn {
+    scheme: 'file',
+    authority: '',
+    path: '/home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    _fsPath: '/home/cleitonanjos/.cursor-server/extensions/extensions.json'
+  },
+  productVersion: {
+    version: '1.7.46',
+    date: '2025-10-14T01:21:46.830Z',
+    vscodeVersion: '1.99.3'
+  },
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[16:46:11] Installing extension: ms-toolsai.vscode-jupyter-slideshow {
+  isMachineScoped: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: vn {
+    scheme: 'file',
+    authority: '',
+    path: '/home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/cleitonanjos/.cursor-server/extensions/extensions.json',
+    _fsPath: '/home/cleitonanjos/.cursor-server/extensions/extensions.json'
+  },
+  productVersion: {
+    version: '1.7.46',
+    date: '2025-10-14T01:21:46.830Z',
+    vscodeVersion: '1.99.3'
+  },
+  context: { dependecyOrPackExtensionInstall: true }
+}
+[16:46:11] Started downloading extension: ms-python.python 2023.6.0 file:///home/cleitonanjos/.cursor-server/data/CachedExtensionVSIXs/ms-python.python-2023.6.0
+[16:46:11] Started downloading extension: anysphere.cursorpyright 1.0.9 file:///home/cleitonanjos/.cursor-server/data/CachedExtensionVSIXs/anysphere.cursorpyright-1.0.9
+[16:46:11] Started downloading extension: ms-toolsai.jupyter 2025.3.0 file:///home/cleitonanjos/.cursor-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-2025.3.0-universal
+[16:46:11] Started downloading extension: ms-toolsai.jupyter-renderers 1.3.0 file:///home/cleitonanjos/.cursor-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.3.0-universal
+[16:46:11] Started downloading extension: ms-toolsai.jupyter-keymap 1.1.2 file:///home/cleitonanjos/.cursor-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-keymap-1.1.2-universal
+[16:46:11] Started downloading extension: ms-toolsai.vscode-jupyter-cell-tags 0.1.9 file:///home/cleitonanjos/.cursor-server/data/CachedExtensionVSIXs/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal
+[16:46:11] Started downloading extension: ms-toolsai.vscode-jupyter-slideshow 0.1.6 file:///home/cleitonanjos/.cursor-server/data/CachedExtensionVSIXs/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal
+[16:46:12] Extracted extension to file:///home/cleitonanjos/.cursor-server/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal: ms-toolsai.jupyter-keymap
+[16:46:12] Renamed to /home/cleitonanjos/.cursor-server/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal
+[16:46:12] Extracted extension to file:///home/cleitonanjos/.cursor-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal: ms-toolsai.vscode-jupyter-slideshow
+[16:46:12] Renamed to /home/cleitonanjos/.cursor-server/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal
+[16:46:12] Extracted extension to file:///home/cleitonanjos/.cursor-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal: ms-toolsai.vscode-jupyter-cell-tags
+[16:46:12] Renamed to /home/cleitonanjos/.cursor-server/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal
+[16:46:13] Extracted extension to file:///home/cleitonanjos/.cursor-server/extensions/ms-toolsai.jupyter-renderers-1.3.0-universal: ms-toolsai.jupyter-renderers
+[16:46:13] Renamed to /home/cleitonanjos/.cursor-server/extensions/ms-toolsai.jupyter-renderers-1.3.0-universal
+[16:46:13] Extracted extension to file:///home/cleitonanjos/.cursor-server/extensions/ms-toolsai.jupyter-2025.3.0-universal: ms-toolsai.jupyter
+[16:46:13] Renamed to /home/cleitonanjos/.cursor-server/extensions/ms-toolsai.jupyter-2025.3.0-universal
+[16:46:16] Extracted extension to file:///home/cleitonanjos/.cursor-server/extensions/ms-python.python-2023.6.0: ms-python.python
+[16:46:16] Renamed to /home/cleitonanjos/.cursor-server/extensions/ms-python.python-2023.6.0
+[16:46:18] Extracted extension to file:///home/cleitonanjos/.cursor-server/extensions/anysphere.cursorpyright-1.0.9: anysphere.cursorpyright
+[16:46:18] Renamed to /home/cleitonanjos/.cursor-server/extensions/anysphere.cursorpyright-1.0.9
+[16:46:18] Extension installed successfully: ms-toolsai.jupyter-keymap file:///home/cleitonanjos/.cursor-server/extensions/extensions.json
+[16:46:18] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow file:///home/cleitonanjos/.cursor-server/extensions/extensions.json
+[16:46:18] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags file:///home/cleitonanjos/.cursor-server/extensions/extensions.json
+[16:46:18] Extension installed successfully: ms-toolsai.jupyter-renderers file:///home/cleitonanjos/.cursor-server/extensions/extensions.json
+[16:46:18] Extension installed successfully: ms-toolsai.jupyter file:///home/cleitonanjos/.cursor-server/extensions/extensions.json
+[16:46:18] Extension installed successfully: ms-python.python file:///home/cleitonanjos/.cursor-server/extensions/extensions.json
+[16:46:18] Extension installed successfully: anysphere.cursorpyright file:///home/cleitonanjos/.cursor-server/extensions/extensions.json
+[16:58:42] Getting extensions control
+[09:01:31] [127.0.0.1][9ff1823f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:01:32] [127.0.0.1][03b23fd2][ExtensionHostConnection] <54819> Extension Host Process exited with code: 0, signal: null.

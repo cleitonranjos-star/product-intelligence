@@ -96,3 +96,135 @@
 2025-10-15 10:34:21.004 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3820
 2025-10-15 10:34:26.050 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3820
 2025-10-15 10:35:12.502 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3820
+2025-10-15 10:35:15.503 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:35:15.927 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:50:51.862 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:50:56.979 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:51:02.101 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:51:10.012 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:51:15.114 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:51:20.184 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:51:25.253 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:51:30.330 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:51:35.413 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:51:43.457 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:51:48.997 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:51:54.071 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:51:59.141 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3832
+2025-10-15 10:52:02.550 [info] Extension host terminating: received terminate message from renderer
+2025-10-15 10:52:02.551 [info] Lock '/home/cleitonanjos/.cursor-server/data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-10-15 10:52:02.580 [error] Canceled: Canceled
+	at new GMe (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:164021)
+	at iwe._remoteCall (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:170352)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:167106)
+	at Ife._doExecuteCommand (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:134:48918)
+	at Ife.executeCommand (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:134:48357)
+	at t.registerCommand.description (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:134:47621)
+	at Ife._executeContributedCommand (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:134:49488)
+	at Ife._doExecuteCommand (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:134:48490)
+	at Ife.executeCommand (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:134:48357)
+	at Object.executeCommand (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:196:139897)
+	at $se.H [as value] (/home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js:2:107370)
+	at J._deliver (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:2961)
+	at J._deliverQueue (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:3052)
+	at J.fire (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:3389)
+	at Object.f [as dispose] (/home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js:2:173231)
+	at /home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js:2:179517
+	at Array.forEach (<anonymous>)
+	at C.dispose (/home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js:2:179504)
+	at Bde.<anonymous> (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:129:10090)
+	at Bde.dispose (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:129:10186)
+	at Bde.<anonymous> (/home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js:2:109847)
+	at Bde.dispose (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:129:10186)
+	at ui (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:25:706)
+	at file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:138:18912
+	at file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:25:1019
+	at Object.dispose (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:8:713)
+	at bqt._deactivate (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:138:15086)
+	at file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:138:12369
+	at Array.map (<anonymous>)
+	at bqt._deactivateAll (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:138:12357)
+	at bqt.terminate (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:138:12711)
+	at _qe.terminate (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:139:1617)
+	at cr (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:671:15436)
+	at $se.value (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:671:13561)
+	at J._deliver (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:2961)
+	at J.fire (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:3282)
+	at xo.fire (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:10988)
+	at Iue._receiveMessage (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:15941)
+	at $se.value (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:13302)
+	at J._deliver (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:2961)
+	at J.fire (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:3282)
+	at d1e.acceptChunk (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:8782)
+	at $se.value (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:7910)
+	at J._deliver (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:2961)
+	at J.fire (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:3282)
+	at N6e._processReadQueue (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:27458)
+	at N6e.acceptFrame (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:27114)
+	at J6e._acceptChunk (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:24853)
+	at file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:21721
+	at Socket.e (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:19505)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-10-15 10:52:02.581 [error] Canceled: Canceled
+	at new GMe (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:164021)
+	at iwe._remoteCall (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:170352)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:167106)
+	at Ife._doExecuteCommand (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:134:48918)
+	at Ife.executeCommand (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:134:48357)
+	at t.registerCommand.description (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:134:47621)
+	at Ife._executeContributedCommand (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:134:49488)
+	at Ife._doExecuteCommand (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:134:48490)
+	at Ife.executeCommand (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:134:48357)
+	at Object.executeCommand (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:196:139897)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/dist/extension.js:2:270497)
+	at /home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/dist/extension.js:2:271447
+	at $se.value (/home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js:2:567666)
+	at J._deliver (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:2961)
+	at J._deliverQueue (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:3052)
+	at J.fire (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:3389)
+	at Object.f [as dispose] (/home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js:2:173231)
+	at /home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js:2:179517
+	at Array.forEach (<anonymous>)
+	at C.dispose (/home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js:2:179504)
+	at Bde.<anonymous> (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:129:10090)
+	at Bde.dispose (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:129:10186)
+	at Bde.<anonymous> (/home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js:2:109847)
+	at Bde.dispose (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:129:10186)
+	at ui (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:25:706)
+	at file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:138:18912
+	at file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:25:1019
+	at Object.dispose (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:8:713)
+	at bqt._deactivate (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:138:15086)
+	at file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:138:12369
+	at Array.map (<anonymous>)
+	at bqt._deactivateAll (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:138:12357)
+	at bqt.terminate (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:138:12711)
+	at _qe.terminate (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:139:1617)
+	at cr (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:671:15436)
+	at $se.value (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:671:13561)
+	at J._deliver (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:2961)
+	at J.fire (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:3282)
+	at xo.fire (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:10988)
+	at Iue._receiveMessage (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:15941)
+	at $se.value (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:13302)
+	at J._deliver (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:2961)
+	at J.fire (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:3282)
+	at d1e.acceptChunk (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:8782)
+	at $se.value (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:7910)
+	at J._deliver (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:2961)
+	at J.fire (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:27:3282)
+	at N6e._processReadQueue (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:27458)
+	at N6e.acceptFrame (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:27114)
+	at J6e._acceptChunk (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:24853)
+	at file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:21721
+	at Socket.e (file:///home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/api/node/extensionHostProcess.js:44:19505)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2025-10-15 10:52:02.581 [info] Extension host with pid 2848 exiting with code 0
