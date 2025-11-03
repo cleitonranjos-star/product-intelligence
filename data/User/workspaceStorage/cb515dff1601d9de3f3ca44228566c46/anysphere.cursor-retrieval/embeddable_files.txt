@@ -18014,3 +18014,13 @@ Analytics-repo/README.md
 .git/config
 .git/COMMIT_EDITMSG
 .git/refs/heads/main
+.git/FETCH_HEAD
+.git/config
+.git/ORIG_HEAD
+.git/index
+.git/index
+.git/refs/heads/main
+.git/index
+README.md
+.git/MERGE_MSGey
+.git/refs/heads/main
