@@ -1,0 +1,800 @@
+2025-10-15 10:14:13.256 [error] Error getting repo info: Failed to execute git
+2025-10-15 10:14:13.257 [error] Error: Failed to execute git
+	at t.Git._exec (/home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js:2:34408)
+	at async t.Git.exec (/home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js:2:33531)
+	at async t.GitProvider.executeGitCommandStable (/home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-retrieval/dist/main.js:2:1287664)
+	at async t.GitProvider.getRepoInfo (/home/cleitonanjos/.cursor-server/bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-retrieval/dist/main.js:2:1263616)
+2025-10-15 10:14:13.257 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-10-15 10:14:13.257 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-10-15 10:14:13.303 [info] Making keys for a new index
+2025-10-15 10:14:13.348 [info] Using the default key from the server for a new index
+2025-10-15 10:14:13.349 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-10-15 10:14:13.459 [warning] Failed to get symbolic ref: Failed to execute git
+2025-10-15 10:14:13.464 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/cleitonanjos/.cursor-server/.git/HEAD')
+2025-10-15 10:14:13.485 [warning] Failed to get branches from remote: Failed to execute git
+2025-10-15 10:14:13.487 [warning] Failed to get default branch from git config: Failed to execute git
+2025-10-15 10:14:13.495 [info] Using existing keys for an index
+2025-10-15 10:14:13.495 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-10-15 10:14:13.547 [info] Doing a startup handshake.
+2025-10-15 10:14:13.602 [info] Finished computing merkle tree in 34.38862900000004 ms.
+2025-10-15 10:14:13.603 [info] Doing the initial handshake with hash: ddaafdf4d8aae32e842d9b078870a4787232f103f8b4ab63c1128bcbba7a4bb1
+2025-10-15 10:14:13.620 [info] Computed simhash vector of length: 256
+2025-10-15 10:14:13.620 [info] Path key hash: bfaa47f31ad8c0c88db1f541cdbc2c0250f5551276f6111cac01d75fbefbd758
+2025-10-15 10:14:13.620 [info] Handshake start
+2025-10-15 10:14:13.653 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/cleitonanjos/.cursor-server/data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-10-15 10:14:14.413 [info] Handshake timing: 804.470206, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-10-15 10:14:14.413 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-10-15 10:14:14.413 [info] Starting fast remote sync.
+2025-10-15 10:14:14.415 [info] Total num embeddable files: 369
+2025-10-15 10:14:14.417 [info] Root hash: ddaafdf4d8aae32e842d9b078870a4787232f103f8b4ab63c1128bcbba7a4bb1
+2025-10-15 10:14:14.418 [info] Starting repository upload from scratch.
+2025-10-15 10:14:14.422 [info] Uploading 369 files.
+2025-10-15 10:14:14.424 [info] Total number of files to embed: 369
+2025-10-15 10:14:14.424 [info] Not aborted
+2025-10-15 10:14:14.424 [info] Starting while loop.
+2025-10-15 10:14:14.476 [info] syncing batch of 2 files and 4021 bytes
+2025-10-15 10:14:15.174 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./.b9e5948c1ad20443a5cecba6b84a3c9b99d62580.token
+2025-10-15 10:14:15.174 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/bin/remote-cli/cursor
+2025-10-15 10:14:15.176 [info] syncing batch of 4 files and 66377 bytes
+2025-10-15 10:14:16.099 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/bin/helpers/browser.sh
+2025-10-15 10:14:16.099 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/bin/helpers/check-requirements.sh
+2025-10-15 10:14:16.099 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/bin/cursor-server
+2025-10-15 10:14:16.099 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/product.json
+2025-10-15 10:14:16.100 [info] syncing batch of 8 files and 12099 bytes
+2025-10-15 10:14:17.048 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/tunnel-forwarding/.vscode/launch.json
+2025-10-15 10:14:17.048 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/tunnel-forwarding/dist/extension.js
+2025-10-15 10:14:17.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/tunnel-forwarding/package.nls.json
+2025-10-15 10:14:17.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/tunnel-forwarding/package.json
+2025-10-15 10:14:17.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-math/preview-styles/index.css
+2025-10-15 10:14:17.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-math/README.md
+2025-10-15 10:14:17.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-math/syntaxes/md-math-inline.tmLanguage.json
+2025-10-15 10:14:17.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-math/syntaxes/md-math-fence.tmLanguage.json
+2025-10-15 10:14:17.057 [info] syncing batch of 16 files and 1004424 bytes
+2025-10-15 10:14:19.928 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-math/syntaxes/md-math.tmLanguage.json
+2025-10-15 10:14:19.929 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-math/syntaxes/md-math-block.tmLanguage.json
+2025-10-15 10:14:19.929 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/npm/README.md
+2025-10-15 10:14:19.929 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/npm/dist/npmMain.js.LICENSE.txt
+2025-10-15 10:14:19.929 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-math/notebook-out/katex.js
+2025-10-15 10:14:19.929 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-math/notebook-out/katex.min.css
+2025-10-15 10:14:19.929 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/npm/dist/npmMain.js
+2025-10-15 10:14:19.929 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/npm/package.nls.json
+2025-10-15 10:14:19.929 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/npm/package.json
+2025-10-15 10:14:19.929 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github-authentication/README.md
+2025-10-15 10:14:19.929 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-math/dist/extension.js
+2025-10-15 10:14:19.929 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-math/package.nls.json
+2025-10-15 10:14:19.929 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-math/package.json
+2025-10-15 10:14:19.930 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug-companion/README.md
+2025-10-15 10:14:19.930 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug-companion/ThirdPartyNotices.txt
+2025-10-15 10:14:19.930 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug-companion/eslint.config.mjs
+2025-10-15 10:14:19.941 [info] syncing batch of 20 files and 450195 bytes
+2025-10-15 10:14:19.947 [info] syncing batch of 12 files and 1182198 bytes
+2025-10-15 10:14:21.556 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-connect/dist/main.js
+2025-10-15 10:14:21.556 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-connect/extension.webpack.config.js
+2025-10-15 10:14:21.556 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-connect/package.json
+2025-10-15 10:14:21.556 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/debug-server-ready/dist/extension.js
+2025-10-15 10:14:21.556 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/debug-server-ready/package.nls.json
+2025-10-15 10:14:21.556 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/debug-server-ready/package.json
+2025-10-15 10:14:21.556 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-shadow-workspace/README.md
+2025-10-15 10:14:21.556 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-automation/dist/extension.js
+2025-10-15 10:14:21.556 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-automation/dist/extension.js.LICENSE.txt
+2025-10-15 10:14:21.556 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-automation/extension.webpack.config.js
+2025-10-15 10:14:21.556 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-automation/package.json
+2025-10-15 10:14:21.556 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ipynb/README.md
+2025-10-15 10:14:21.563 [info] syncing batch of 20 files and 1628915 bytes
+2025-10-15 10:14:21.567 [info] syncing batch of 4 files and 10614 bytes
+2025-10-15 10:14:22.383 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/media-preview/media/imagePreview.js
+2025-10-15 10:14:22.383 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/media-preview/media/audioPreview.css
+2025-10-15 10:14:22.383 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/css-language-features/README.md
+2025-10-15 10:14:22.384 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/typescript-language-features/README.md
+2025-10-15 10:14:22.388 [info] syncing batch of 8 files and 1088701 bytes
+2025-10-15 10:14:22.563 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github-authentication/dist/extension.js
+2025-10-15 10:14:22.563 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug-companion/LICENSE.txt
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github-authentication/dist/extension.js.LICENSE.txt
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug-companion/SECURITY.md
+2025-10-15 10:14:22.564 [info] Completed 50 jobs for absoluteDirectoryPath: undefined
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github-authentication/package.nls.json
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug-companion/ci.yml
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github-authentication/package.json
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug-companion/package.json
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github-authentication/media/auth.css
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github-authentication/media/index.html
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug-companion/out/extension.js
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-automation/tsconfig.json
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-automation/src/mcpServer.ts
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-automation/src/extension.ts
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github-authentication/media/favicon.ico
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-connect/tsconfig.json
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-connect/src/rpc-methods.ts
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-connect/src/mcp-tools.ts
+2025-10-15 10:14:22.564 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-connect/src/main.ts
+2025-10-15 10:14:22.565 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-browser-connect/src/rpc-client.ts
+2025-10-15 10:14:22.573 [info] syncing batch of 20 files and 1979126 bytes
+2025-10-15 10:14:22.584 [info] syncing batch of 16 files and 1003795 bytes
+2025-10-15 10:14:23.750 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/css-language-features/client/dist/node/cssClientMain.js
+2025-10-15 10:14:23.750 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/css-language-features/package.nls.json
+2025-10-15 10:14:23.750 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/css-language-features/schemas/package.schema.json
+2025-10-15 10:14:23.750 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/css-language-features/package.json
+2025-10-15 10:14:23.750 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/css-language-features/server/.npmrc
+2025-10-15 10:14:23.750 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/typescript-language-features/dist/extension.js
+2025-10-15 10:14:23.750 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/typescript-language-features/dist/extension.js.LICENSE.txt
+2025-10-15 10:14:23.750 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/css-language-features/server/dist/node/85.cssServerMain.js
+2025-10-15 10:14:23.753 [info] syncing batch of 8 files and 791651 bytes
+2025-10-15 10:14:24.781 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/json-language-features/server/dist/node/875.jsonServerMain.js
+2025-10-15 10:14:24.781 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/json-language-features/server/dist/node/jsonServerMain.js
+2025-10-15 10:14:24.781 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/json-language-features/server/package.json
+2025-10-15 10:14:24.781 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/html-language-features/README.md
+2025-10-15 10:14:24.781 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/resources/emojis.json
+2025-10-15 10:14:24.781 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/README.md
+2025-10-15 10:14:24.781 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/git-editor-main.js
+2025-10-15 10:14:24.781 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/askpass-main.js
+2025-10-15 10:14:24.781 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js.LICENSE.txt
+2025-10-15 10:14:24.781 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/ssh-askpass.sh
+2025-10-15 10:14:24.781 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/askpass.sh
+2025-10-15 10:14:24.781 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/git-editor-empty.sh
+2025-10-15 10:14:24.781 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/git-editor.sh
+2025-10-15 10:14:24.782 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/ssh-askpass-empty.sh
+2025-10-15 10:14:24.782 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/html-language-features/client/dist/node/htmlClientMain.js
+2025-10-15 10:14:24.782 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/html-language-features/client/dist/node/htmlClientMain.js.LICENSE.txt
+2025-10-15 10:14:24.786 [info] syncing batch of 14 files and 1121727 bytes
+2025-10-15 10:14:24.787 [info] syncing batch of 2 files and 1571337 bytes
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/typescript-language-features/package.nls.json
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/typescript-language-features/schemas/package.schema.json
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/typescript-language-features/schemas/jsconfig.schema.json
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/typescript-language-features/schemas/tsconfig.schema.json
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/typescript-language-features/package.json
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/json-language-features/README.md
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/json-language-features/client/dist/node/jsonClientMain.js
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/json-language-features/client/dist/node/jsonClientMain.js.LICENSE.txt
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/json-language-features/package.nls.json
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/json-language-features/package.json
+2025-10-15 10:14:24.821 [info] Completed 100 jobs for absoluteDirectoryPath: undefined
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/json-language-features/server/.npmrc
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/json-language-features/server/dist/node/774.jsonServerMain.js
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/css-language-features/server/dist/node/920.cssServerMain.js
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/css-language-features/server/dist/node/cssServerMain.js
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/css-language-features/server/package.json
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/merge-conflict/README.md
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/merge-conflict/dist/mergeConflictMain.js.LICENSE.txt
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/merge-conflict/dist/mergeConflictMain.js
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/merge-conflict/package.nls.json
+2025-10-15 10:14:24.821 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/merge-conflict/package.json
+2025-10-15 10:14:24.824 [info] syncing batch of 20 files and 903935 bytes
+2025-10-15 10:14:24.965 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ipynb/notebook-out/cellAttachmentRenderer.js
+2025-10-15 10:14:24.965 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ipynb/dist/ipynbMain.node.js
+2025-10-15 10:14:24.965 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ipynb/dist/notebookSerializerWorker.js
+2025-10-15 10:14:24.965 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ipynb/package.nls.json
+2025-10-15 10:14:24.965 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ipynb/package.json
+2025-10-15 10:14:24.965 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-shadow-workspace/dist/extension.js
+2025-10-15 10:14:24.965 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-shadow-workspace/dist/extension.js.LICENSE.txt
+2025-10-15 10:14:24.965 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-shadow-workspace/package.nls.json
+2025-10-15 10:14:24.965 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-shadow-workspace/package.json
+2025-10-15 10:14:24.965 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/media-preview/README.md
+2025-10-15 10:14:24.965 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/media-preview/dist/extension.js
+2025-10-15 10:14:24.965 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/media-preview/package.nls.json
+2025-10-15 10:14:24.965 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/media-preview/package.json
+2025-10-15 10:14:24.966 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/extension-editing/dist/extensionEditingMain.js
+2025-10-15 10:14:24.966 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/media-preview/media/audioPreview.js
+2025-10-15 10:14:24.966 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/extension-editing/package.nls.json
+2025-10-15 10:14:24.966 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/media-preview/media/videoPreview.js
+2025-10-15 10:14:24.966 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/extension-editing/package.json
+2025-10-15 10:14:24.966 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/media-preview/media/imagePreview.css
+2025-10-15 10:14:24.966 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/media-preview/media/videoPreview.css
+2025-10-15 10:14:24.969 [info] syncing batch of 20 files and 2017509 bytes
+2025-10-15 10:14:25.616 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/html-language-features/package.nls.json
+2025-10-15 10:14:25.616 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/html-language-features/schemas/package.schema.json
+2025-10-15 10:14:25.616 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/html-language-features/package.json
+2025-10-15 10:14:25.616 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/html-language-features/server/.npmrc
+2025-10-15 10:14:25.616 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/html-language-features/server/dist/node/htmlServerMain.js
+2025-10-15 10:14:25.616 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/main.js
+2025-10-15 10:14:25.616 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/html-language-features/server/dist/node/421.htmlServerMain.js
+2025-10-15 10:14:25.616 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/api/.gitignore
+2025-10-15 10:14:25.618 [info] syncing batch of 8 files and 13780 bytes
+2025-10-15 10:14:26.485 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/html-language-features/server/dist/node/769.htmlServerMain.js
+2025-10-15 10:14:26.485 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/html-language-features/server/dist/node/490.htmlServerMain.js
+2025-10-15 10:14:26.486 [info] syncing batch of 2 files and 530 bytes
+2025-10-15 10:14:26.542 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-retrieval/package.json
+2025-10-15 10:14:26.542 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git-base/README.md
+2025-10-15 10:14:26.542 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git-base/syntaxes/ignore.tmLanguage.json
+2025-10-15 10:14:26.542 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git-base/syntaxes/git-commit.tmLanguage.json
+2025-10-15 10:14:26.542 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git-base/syntaxes/git-rebase.tmLanguage.json
+2025-10-15 10:14:26.542 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git-base/dist/extension.js
+2025-10-15 10:14:26.542 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git-base/languages/git-rebase.language-configuration.json
+2025-10-15 10:14:26.542 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git-base/languages/ignore.language-configuration.json
+2025-10-15 10:14:26.546 [info] syncing batch of 8 files and 411740 bytes
+2025-10-15 10:14:26.649 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/html-language-features/server/package.json
+2025-10-15 10:14:26.649 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/html-language-features/server/lib/jquery.d.ts
+2025-10-15 10:14:26.649 [info] Completed 150 jobs for absoluteDirectoryPath: undefined
+2025-10-15 10:14:26.649 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/simple-browser/README.md
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/simple-browser/dist/extension.js
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/simple-browser/package.nls.json
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/simple-browser/package.json
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/simple-browser/media/main.css
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/simple-browser/media/index.js
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/simple-browser/media/codicon.css
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/debug-auto-launch/.vscode/launch.json
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/debug-auto-launch/dist/extension.js
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/debug-auto-launch/package.nls.json
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/debug-auto-launch/package.json
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/microsoft-authentication/README.md
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/microsoft-authentication/dist/extension.js
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/microsoft-authentication/dist/extension.js.LICENSE.txt
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/microsoft-authentication/package.nls.json
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/microsoft-authentication/package.json
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/microsoft-authentication/media/auth.css
+2025-10-15 10:14:26.650 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/microsoft-authentication/media/index.html
+2025-10-15 10:14:26.658 [info] syncing batch of 20 files and 1473975 bytes
+2025-10-15 10:14:27.888 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git-base/languages/git-commit.language-configuration.json
+2025-10-15 10:14:27.889 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git-base/package.nls.json
+2025-10-15 10:14:27.892 [info] syncing batch of 2 files and 3215 bytes
+2025-10-15 10:14:28.004 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git-base/package.json
+2025-10-15 10:14:28.004 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/ThirdPartyNotices.txt
+2025-10-15 10:14:28.004 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/grunt/README.md
+2025-10-15 10:14:28.004 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/LICENSE.txt
+2025-10-15 10:14:28.004 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/grunt/dist/main.js
+2025-10-15 10:14:28.004 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/grunt/package.nls.json
+2025-10-15 10:14:28.004 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/grunt/package.json
+2025-10-15 10:14:28.004 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/references-view/README.md
+2025-10-15 10:14:28.009 [info] syncing batch of 8 files and 7405 bytes
+2025-10-15 10:14:28.084 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/dist/askpass-empty.sh
+2025-10-15 10:14:28.084 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/package.nls.json
+2025-10-15 10:14:28.084 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/git/package.json
+2025-10-15 10:14:28.084 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/emmet/README.md
+2025-10-15 10:14:28.084 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/emmet/dist/node/emmetNodeMain.js
+2025-10-15 10:14:28.084 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/emmet/package.nls.json
+2025-10-15 10:14:28.085 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/emmet/package.json
+2025-10-15 10:14:28.085 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/jake/README.md
+2025-10-15 10:14:28.085 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/jake/dist/main.js
+2025-10-15 10:14:28.085 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/jake/package.nls.json
+2025-10-15 10:14:28.085 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/jake/package.json
+2025-10-15 10:14:28.085 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-language-features/README.md
+2025-10-15 10:14:28.085 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-language-features/notebook-out/index.js
+2025-10-15 10:14:28.085 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-language-features/dist/serverWorkerMain.js
+2025-10-15 10:14:28.091 [info] syncing batch of 14 files and 1163295 bytes
+2025-10-15 10:14:28.293 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/test/utils/ipChangeMonitor.test.ts
+2025-10-15 10:14:28.293 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/test/utils/asyncIterPushable.test.ts
+2025-10-15 10:14:28.295 [info] syncing batch of 2 files and 106057 bytes
+2025-10-15 10:14:28.525 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/src/diagnosticTool.js
+2025-10-15 10:14:28.526 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/search-result/syntaxes/searchResult.tmLanguage.json
+2025-10-15 10:14:28.528 [info] syncing batch of 2 files and 6044 bytes
+2025-10-15 10:14:29.220 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/search-result/dist/extension.js
+2025-10-15 10:14:29.221 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/search-result/package.nls.json
+2025-10-15 10:14:29.223 [info] syncing batch of 2 files and 888 bytes
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/references-view/dist/extension.js
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/references-view/package.nls.json
+2025-10-15 10:14:29.411 [info] Completed 200 jobs for absoluteDirectoryPath: undefined
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/references-view/package.json
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/php-language-features/README.md
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/src/vendor/acorn.js
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/php-language-features/dist/phpMain.js
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/php-language-features/package.nls.json
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/src/vendor/acorn-loose.js
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/php-language-features/package.json
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/terminal-suggest/README.md
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/terminal-suggest/ThirdPartyNotices.txt
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/terminal-suggest/.gitignore
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/terminal-suggest/cgmanifest.json
+2025-10-15 10:14:29.411 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/terminal-suggest/dist/terminalSuggestMain.js
+2025-10-15 10:14:29.412 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/terminal-suggest/dist/fig/README.md
+2025-10-15 10:14:29.412 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/terminal-suggest/package.nls.json
+2025-10-15 10:14:29.412 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/terminal-suggest/package.json
+2025-10-15 10:14:29.412 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/scripts/run_tests.sh
+2025-10-15 10:14:29.412 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/scripts/tsc-some-files.sh
+2025-10-15 10:14:29.412 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/test/filesync/syncer.test.ts
+2025-10-15 10:14:29.417 [info] syncing batch of 20 files and 1868416 bytes
+2025-10-15 10:14:29.545 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-language-features/dist/extension.js
+2025-10-15 10:14:29.545 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-language-features/dist/extension.js.LICENSE.txt
+2025-10-15 10:14:29.545 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-language-features/dist/serverWorkerMain.js.LICENSE.txt
+2025-10-15 10:14:29.545 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-language-features/package.nls.json
+2025-10-15 10:14:29.545 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-language-features/schemas/package.schema.json
+2025-10-15 10:14:29.545 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-language-features/package.json
+2025-10-15 10:14:29.545 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/microsoft-authentication/media/favicon.ico
+2025-10-15 10:14:29.546 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-language-features/media/highlight.css
+2025-10-15 10:14:29.546 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-language-features/media/pre.js
+2025-10-15 10:14:29.546 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-language-features/media/markdown.css
+2025-10-15 10:14:29.546 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/markdown-language-features/media/index.js
+2025-10-15 10:14:29.546 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-retrieval/worker/tsconfig.json
+2025-10-15 10:14:29.546 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/README.md
+2025-10-15 10:14:29.546 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-retrieval/worker/dist/main.js
+2025-10-15 10:14:29.546 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-retrieval/README.md
+2025-10-15 10:14:29.546 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-retrieval/.gitignore
+2025-10-15 10:14:29.546 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-retrieval/vitest.config.ts
+2025-10-15 10:14:29.546 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-retrieval/dist/main.js.LICENSE.txt
+2025-10-15 10:14:29.546 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-retrieval/package.nls.json
+2025-10-15 10:14:29.546 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-retrieval/schemas/package.schema.json
+2025-10-15 10:14:29.551 [info] syncing batch of 20 files and 2020652 bytes
+2025-10-15 10:14:29.769 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/test/utils/networkChangeMonitor.test.ts
+2025-10-15 10:14:29.769 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/README.md
+2025-10-15 10:14:29.769 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/.gitignore
+2025-10-15 10:14:29.769 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/vitest.config.ts
+2025-10-15 10:14:29.769 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/dist/commands/cppUtils/diff/README.md
+2025-10-15 10:14:29.769 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/dist/main.js.LICENSE.txt
+2025-10-15 10:14:29.769 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/package.nls.json
+2025-10-15 10:14:29.770 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/schemas/environment.schema.json
+2025-10-15 10:14:29.774 [info] syncing batch of 8 files and 1073403 bytes
+2025-10-15 10:14:30.145 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/search-result/package.json
+2025-10-15 10:14:30.145 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/tsconfig.browser.json
+2025-10-15 10:14:30.148 [info] syncing batch of 2 files and 27494 bytes
+2025-10-15 10:14:30.518 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/out/extension.js
+2025-10-15 10:14:30.518 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/out/425.heapsnapshotWorker.js
+2025-10-15 10:14:30.518 [info] Completed 250 jobs for absoluteDirectoryPath: undefined
+2025-10-15 10:14:30.520 [info] syncing batch of 2 files and 509 bytes
+2025-10-15 10:14:31.488 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/README.md
+2025-10-15 10:14:31.488 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/a.md
+2025-10-15 10:14:31.490 [info] syncing batch of 2 files and 0 bytes
+2025-10-15 10:14:31.697 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/b.md
+2025-10-15 10:14:31.697 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/x.txt
+2025-10-15 10:14:31.699 [info] syncing batch of 2 files and 0 bytes
+2025-10-15 10:14:31.912 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/.github/PULL_REQUEST_TEMPLATE/a.md
+2025-10-15 10:14:31.912 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/.github/PULL_REQUEST_TEMPLATE/b.md
+2025-10-15 10:14:31.915 [info] syncing batch of 2 files and 0 bytes
+2025-10-15 10:14:32.102 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/base/node/cpuUsage.sh
+2025-10-15 10:14:32.102 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/out/a443ca1a33b96237dd48.module.wasm
+2025-10-15 10:14:32.102 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/platform/terminal/node/ptyHostMain.js
+2025-10-15 10:14:32.102 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/out/dbd61d846b1102299709.module.wasm
+2025-10-15 10:14:32.102 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/platform/files/node/watcher/watcherMain.js
+2025-10-15 10:14:32.103 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/out/heap-client.bundle.js
+2025-10-15 10:14:32.103 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/out/848.extension.web.js
+2025-10-15 10:14:32.103 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/out/cpu-client.bundle.js
+2025-10-15 10:14:32.105 [info] syncing batch of 8 files and 320058 bytes
+2025-10-15 10:14:32.134 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/.github/PULL_REQUEST_TEMPLATE/x.txt
+2025-10-15 10:14:32.134 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/.github/PULL_REQUEST_TEMPLATE.md
+2025-10-15 10:14:32.135 [info] syncing batch of 2 files and 871 bytes
+2025-10-15 10:14:32.259 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/README.md
+2025-10-15 10:14:32.259 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/src/watchdog.js
+2025-10-15 10:14:32.259 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/src/diagnosticTool.css
+2025-10-15 10:14:32.259 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/src/renameWorker.js
+2025-10-15 10:14:32.259 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/src/extension.js
+2025-10-15 10:14:32.259 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/src/bootloader.js
+2025-10-15 10:14:32.259 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/src/chromehash_bg.wasm
+2025-10-15 10:14:32.259 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/src/targets/node/terminateProcess.sh
+2025-10-15 10:14:32.259 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/package.nls.json
+2025-10-15 10:14:32.259 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/package.json
+2025-10-15 10:14:32.260 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-mcp/tsconfig.json
+2025-10-15 10:14:32.260 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-mcp/src/commands/mcpCommands.ts
+2025-10-15 10:14:32.260 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-mcp/src/commands/registry.ts
+2025-10-15 10:14:32.260 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-mcp/src/commands/mcp/oauth.ts
+2025-10-15 10:14:32.260 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-mcp/src/commands/registryAll.ts
+2025-10-15 10:14:32.260 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-mcp/src/main.ts
+2025-10-15 10:14:32.260 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-mcp/src/everythingProvider.ts
+2025-10-15 10:14:32.260 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-mcp/src/utils/logger.ts
+2025-10-15 10:14:32.260 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-mcp/dist/main.js.LICENSE.txt
+2025-10-15 10:14:32.260 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-mcp/dist/main.js
+2025-10-15 10:14:32.265 [info] syncing batch of 16 files and 1537014 bytes
+2025-10-15 10:14:32.272 [info] syncing batch of 4 files and 1447830 bytes
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-mcp/extension.webpack.config.js
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/ThirdPartyNotices.txt
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-mcp/package.json
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/package.json
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/ci.yml
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/package.json
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/bootstrap-fork.js
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/out/heapsnapshotWorker.js
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/out/extension.web.js
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.vscode-js-profile-table/out/heapsnapshot-client.bundle.js
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-rc.zsh
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-profile.zsh
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration.ps1
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration.fish
+2025-10-15 10:14:32.375 [info] Completed 300 jobs for absoluteDirectoryPath: undefined
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-login.zsh
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-env.zsh
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/contrib/externalTerminal/node/iTermHelper.scpt
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/workbench/contrib/externalTerminal/node/TerminalHelper.scpt
+2025-10-15 10:14:32.375 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/vs/base/node/ps.sh
+2025-10-15 10:14:32.378 [info] syncing batch of 19 files and 81783 bytes
+2025-10-15 10:14:32.441 [warning] Completed job unsuccessfully, will retry: ./data/machineid error: Bad unexpected error
+2025-10-15 10:14:32.441 [warning] Completed job unsuccessfully, will retry: ./.b9e5948c1ad20443a5cecba6b84a3c9b99d62580.log error: Bad unexpected error
+2025-10-15 10:14:32.441 [warning] Completed job unsuccessfully, will retry: ./extensions/extensions.json error: Bad unexpected error
+2025-10-15 10:14:32.442 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/vscode.github/GitHub.log error: Bad unexpected error
+2025-10-15 10:14:32.442 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/vscode.git/Git.log error: Bad unexpected error
+2025-10-15 10:14:32.442 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:32.442 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/remoteagent.log error: Bad unexpected error
+2025-10-15 10:14:32.442 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log error: Bad unexpected error
+2025-10-15 10:14:32.442 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-retrieval/Cursor Git Graph.log error: Bad unexpected error
+2025-10-15 10:14:32.442 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:32.443 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-mcp/MCP Logs.log error: Bad unexpected error
+2025-10-15 10:14:32.443 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/vscode.github/GitHub.log error: Bad unexpected error
+2025-10-15 10:14:32.443 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-mcp/MCP Logs.log error: Bad unexpected error
+2025-10-15 10:14:32.443 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log error: Bad unexpected error
+2025-10-15 10:14:32.443 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Git Graph.log error: Bad unexpected error
+2025-10-15 10:14:32.443 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/vscode.git/Git.log error: Bad unexpected error
+2025-10-15 10:14:32.443 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:32.443 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:32.443 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:32.452 [info] syncing batch of 19 files and 85037 bytes
+2025-10-15 10:14:32.542 [warning] Completed job unsuccessfully, will retry: ./data/machineid error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./.b9e5948c1ad20443a5cecba6b84a3c9b99d62580.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./extensions/extensions.json error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/vscode.github/GitHub.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/vscode.git/Git.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/remoteagent.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-retrieval/Cursor Git Graph.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-mcp/MCP Logs.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/vscode.github/GitHub.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-mcp/MCP Logs.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Git Graph.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/vscode.git/Git.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:32.543 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:32.545 [info] syncing batch of 19 files and 88291 bytes
+2025-10-15 10:14:32.629 [warning] Completed job unsuccessfully, will retry: ./data/machineid error: Bad unexpected error
+2025-10-15 10:14:32.629 [warning] Completed job unsuccessfully, will retry: ./.b9e5948c1ad20443a5cecba6b84a3c9b99d62580.log error: Bad unexpected error
+2025-10-15 10:14:32.629 [warning] Completed job unsuccessfully, will retry: ./extensions/extensions.json error: Bad unexpected error
+2025-10-15 10:14:32.629 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/vscode.github/GitHub.log error: Bad unexpected error
+2025-10-15 10:14:32.629 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/vscode.git/Git.log error: Bad unexpected error
+2025-10-15 10:14:32.629 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:32.629 [info] Completed 350 jobs for absoluteDirectoryPath: undefined
+2025-10-15 10:14:32.629 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/remoteagent.log error: Bad unexpected error
+2025-10-15 10:14:32.629 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log error: Bad unexpected error
+2025-10-15 10:14:32.629 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-retrieval/Cursor Git Graph.log error: Bad unexpected error
+2025-10-15 10:14:32.629 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:32.629 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-mcp/MCP Logs.log error: Bad unexpected error
+2025-10-15 10:14:32.629 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/vscode.github/GitHub.log error: Bad unexpected error
+2025-10-15 10:14:32.630 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-mcp/MCP Logs.log error: Bad unexpected error
+2025-10-15 10:14:32.630 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log error: Bad unexpected error
+2025-10-15 10:14:32.630 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Git Graph.log error: Bad unexpected error
+2025-10-15 10:14:32.630 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/vscode.git/Git.log error: Bad unexpected error
+2025-10-15 10:14:32.630 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:32.630 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:32.630 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:32.632 [info] syncing batch of 19 files and 91632 bytes
+2025-10-15 10:14:32.707 [warning] Completed job unsuccessfully, will retry: ./data/machineid error: Bad unexpected error
+2025-10-15 10:14:32.707 [warning] Completed job unsuccessfully, will retry: ./.b9e5948c1ad20443a5cecba6b84a3c9b99d62580.log error: Bad unexpected error
+2025-10-15 10:14:32.707 [warning] Completed job unsuccessfully, will retry: ./extensions/extensions.json error: Bad unexpected error
+2025-10-15 10:14:32.707 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/vscode.github/GitHub.log error: Bad unexpected error
+2025-10-15 10:14:32.707 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/vscode.git/Git.log error: Bad unexpected error
+2025-10-15 10:14:32.707 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:32.708 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/remoteagent.log error: Bad unexpected error
+2025-10-15 10:14:32.708 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log error: Bad unexpected error
+2025-10-15 10:14:32.708 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-retrieval/Cursor Git Graph.log error: Bad unexpected error
+2025-10-15 10:14:32.708 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:32.708 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-mcp/MCP Logs.log error: Bad unexpected error
+2025-10-15 10:14:32.708 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/vscode.github/GitHub.log error: Bad unexpected error
+2025-10-15 10:14:32.708 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-mcp/MCP Logs.log error: Bad unexpected error
+2025-10-15 10:14:32.708 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log error: Bad unexpected error
+2025-10-15 10:14:32.708 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Git Graph.log error: Bad unexpected error
+2025-10-15 10:14:32.708 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/vscode.git/Git.log error: Bad unexpected error
+2025-10-15 10:14:32.708 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:32.708 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:32.708 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:32.710 [info] syncing batch of 19 files and 94886 bytes
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./data/machineid error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./.b9e5948c1ad20443a5cecba6b84a3c9b99d62580.log error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./extensions/extensions.json error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/vscode.github/GitHub.log error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/vscode.git/Git.log error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/remoteagent.log error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-retrieval/Cursor Git Graph.log error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost1/anysphere.cursor-mcp/MCP Logs.log error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/vscode.github/GitHub.log error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-mcp/MCP Logs.log error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log error: Bad unexpected error
+2025-10-15 10:14:32.779 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Git Graph.log error: Bad unexpected error
+2025-10-15 10:14:32.780 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/vscode.git/Git.log error: Bad unexpected error
+2025-10-15 10:14:32.780 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:32.780 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:32.780 [info] Completed 400 jobs for absoluteDirectoryPath: undefined
+2025-10-15 10:14:32.780 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:32.970 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/dist/extension.js.LICENSE.txt
+2025-10-15 10:14:32.970 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/markdown.css
+2025-10-15 10:14:33.311 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/a.md
+2025-10-15 10:14:33.311 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/b.md
+2025-10-15 10:14:33.311 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/x.txt
+2025-10-15 10:14:33.311 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE.md
+2025-10-15 10:14:33.311 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE.md
+2025-10-15 10:14:33.311 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/x.txt
+2025-10-15 10:14:33.311 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/testWorkspace/some-markdown.md
+2025-10-15 10:14:33.311 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/dist/extension.js
+2025-10-15 10:14:33.682 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/package.json
+2025-10-15 10:14:33.682 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-always-local/media/main.css
+2025-10-15 10:14:33.682 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-deeplink/vitest.config.ts
+2025-10-15 10:14:33.683 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-deeplink/dist/main.js.LICENSE.txt
+2025-10-15 10:14:33.683 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-deeplink/dist/main.js
+2025-10-15 10:14:33.683 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-deeplink/package.json
+2025-10-15 10:14:33.683 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/gulp/README.md
+2025-10-15 10:14:33.683 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/src/w32appcontainertokens-XTRA77NA.node
+2025-10-15 10:14:33.683 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/gulp/dist/main.js
+2025-10-15 10:14:33.683 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/gulp/package.nls.json
+2025-10-15 10:14:33.683 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/gulp/package.json
+2025-10-15 10:14:33.683 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/src/hash.js
+2025-10-15 10:14:33.683 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/search-result/README.md
+2025-10-15 10:14:33.683 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/ms-vscode.js-debug/src/ui/basic-wat.tmLanguage.json
+2025-10-15 10:14:33.691 [info] syncing batch of 12 files and 8064 bytes
+2025-10-15 10:14:33.826 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/nls.messages.json
+2025-10-15 10:14:33.826 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/CachedProfilesData/__default__profile__/extensions.builtin.cache
+2025-10-15 10:14:33.826 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/CachedProfilesData/__default__profile__/extensions.user.cache
+2025-10-15 10:14:33.826 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/ptyhost.log
+2025-10-15 10:14:33.828 [info] syncing batch of 4 files and 92602 bytes
+2025-10-15 10:14:34.877 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/machineid
+2025-10-15 10:14:34.877 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./.b9e5948c1ad20443a5cecba6b84a3c9b99d62580.log
+2025-10-15 10:14:34.877 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./extensions/extensions.json
+2025-10-15 10:14:34.877 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost1/vscode.github/GitHub.log
+2025-10-15 10:14:34.878 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost1/vscode.git/Git.log
+2025-10-15 10:14:34.878 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost1/remoteExtHostTelemetry.log
+2025-10-15 10:14:34.878 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/remoteagent.log
+2025-10-15 10:14:34.878 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost1/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+2025-10-15 10:14:34.878 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost1/anysphere.cursor-retrieval/Cursor Git Graph.log
+2025-10-15 10:14:34.878 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost1/remoteexthost.log
+2025-10-15 10:14:34.878 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost1/anysphere.cursor-mcp/MCP Logs.log
+2025-10-15 10:14:34.878 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/vscode.github/GitHub.log
+2025-10-15 10:14:34.879 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:34.947 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:34.947 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:34.947 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:34.948 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:34.962 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:34.962 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:34.962 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:34.963 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:34.974 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:34.974 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:34.974 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:34.974 [info] Completed 450 jobs for absoluteDirectoryPath: undefined
+2025-10-15 10:14:34.975 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:34.985 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:34.985 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:34.985 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:34.986 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:34.994 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:34.994 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:34.994 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:34.996 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.005 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.005 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.005 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.006 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.016 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.016 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.016 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.017 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.027 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.027 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.027 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.027 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.038 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.038 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.038 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.039 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/package.nls.json
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/github/package.json
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-playwright/tsconfig.json
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-playwright/src/main.ts
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-playwright/src/utils/logger.ts
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-playwright/src/channel.ts
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-playwright/dist/main.js.LICENSE.txt
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-playwright/extension.webpack.config.js
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/cursor-playwright/package.json
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/configuration-editing/dist/configurationEditingMain.js
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/configuration-editing/package.nls.json
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/configuration-editing/schemas/attachContainer.schema.json
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/extensions/configuration-editing/package.json
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/server-main.js
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval/embeddable_files.txt
+2025-10-15 10:14:35.049 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./bin/b9e5948c1ad20443a5cecba6b84a3c9b99d62580/out/server-cli.js
+2025-10-15 10:14:35.054 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.054 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.054 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.054 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.065 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.066 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.066 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.066 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.076 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.076 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.076 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.077 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.090 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.090 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.090 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.091 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.101 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.101 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.101 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.102 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.110 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.110 [info] Completed 500 jobs for absoluteDirectoryPath: undefined
+2025-10-15 10:14:35.110 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.110 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.110 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.122 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.122 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.122 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.123 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.129 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.129 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.129 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.130 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.136 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.136 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.136 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.136 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.146 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.146 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.146 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.147 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.156 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.156 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.156 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.157 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.166 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.166 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.166 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.167 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.177 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.177 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.177 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.178 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:35.181 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/anysphere.cursor-mcp/MCP Logs.log
+2025-10-15 10:14:35.181 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+2025-10-15 10:14:35.181 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Git Graph.log
+2025-10-15 10:14:35.181 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/vscode.git/Git.log
+2025-10-15 10:14:35.191 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:35.191 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:35.191 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:35.192 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:37.610 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:37.610 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:37.610 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:37.610 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:37.619 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:37.619 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:37.619 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:37.620 [info] syncing batch of 3 files and 6185 bytes
+2025-10-15 10:14:37.628 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteexthost.log error: Bad unexpected error
+2025-10-15 10:14:37.628 [warning] Completed job unsuccessfully, will retry: ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log error: Bad unexpected error
+2025-10-15 10:14:37.628 [warning] Completed job unsuccessfully, will retry: ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval error: Bad unexpected error
+2025-10-15 10:14:37.781 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-10-15 10:14:38.329 [info] Finished indexing repository.
+2025-10-15 10:14:38.329 [info] Indexing job successfully done or aborted.
+2025-10-15 10:20:04.507 [info] multiCodebaseIndexingJob dispose
+2025-10-15 10:20:04.507 [info] Aborting indexing job.
+2025-10-15 10:20:04.507 [info] Setting global status from status tracker: synced
+2025-10-15 10:20:04.507 [info] Doing a startup handshake.
+2025-10-15 10:20:04.555 [info] Finished computing merkle tree in 40.544395000033546 ms.
+2025-10-15 10:20:04.556 [info] Doing the initial handshake with hash: b4d059f81029d3f85ae029b592b5d8ef653fde7f568ffcd8aafb4aa1f6dadb75
+2025-10-15 10:20:04.559 [info] Computed simhash vector of length: 256
+2025-10-15 10:20:04.559 [info] Path key hash: bfaa47f31ad8c0c88db1f541cdbc2c0250f5551276f6111cac01d75fbefbd758
+2025-10-15 10:20:04.559 [info] Handshake start
+2025-10-15 10:20:04.730 [info] Handshake timing: 171.8247449999908, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-10-15 10:20:04.731 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-10-15 10:20:04.731 [info] Starting fast remote sync.
+2025-10-15 10:20:04.733 [info] Total num embeddable files: 369
+2025-10-15 10:20:04.734 [info] Root hash: b4d059f81029d3f85ae029b592b5d8ef653fde7f568ffcd8aafb4aa1f6dadb75
+2025-10-15 10:20:04.734 [info] In the out of sync case.
+2025-10-15 10:20:04.740 [info] Waiting on semaphore to be released 1
+2025-10-15 10:20:04.936 [info] Waiting on semaphore to be released 1
+2025-10-15 10:20:05.137 [info] Waiting on semaphore to be released 1
+2025-10-15 10:20:05.338 [info] Waiting on semaphore to be released 1
+2025-10-15 10:20:05.539 [info] Waiting on semaphore to be released 1
+2025-10-15 10:20:05.539 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:20:05.740 [info] Waiting on semaphore to be released 1
+2025-10-15 10:20:05.740 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:20:05.941 [info] Waiting on semaphore to be released 1
+2025-10-15 10:20:05.941 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:20:06.140 [info] Waiting on semaphore to be released 1
+2025-10-15 10:20:06.140 [info] [startSync]: sending sync merkle subtree batch of size 3
+2025-10-15 10:20:06.338 [info] Waiting on semaphore to be released 1
+2025-10-15 10:20:06.538 [info] setting numJobsToGo to 5
+2025-10-15 10:20:06.539 [info] [startSync]: numJobs: 5
+2025-10-15 10:20:06.539 [info] Uploading 5 files.
+2025-10-15 10:20:06.540 [info] Total number of files to embed: 369
+2025-10-15 10:20:06.540 [info] Not aborted
+2025-10-15 10:20:06.540 [info] Starting while loop.
+2025-10-15 10:20:06.591 [info] syncing batch of 2 files and 127257 bytes
+2025-10-15 10:20:08.945 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/vscode.git/Git.log
+2025-10-15 10:20:08.945 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+2025-10-15 10:20:08.948 [info] syncing batch of 3 files and 12509 bytes
+2025-10-15 10:20:10.356 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/remoteExtHostTelemetry.log
+2025-10-15 10:20:10.356 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/remoteexthost.log
+2025-10-15 10:20:10.356 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval/high_level_folder_description.txt
+2025-10-15 10:20:10.537 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-10-15 10:20:11.421 [info] Finished indexing repository.
+2025-10-15 10:20:11.421 [info] Indexing job successfully done or aborted.
+2025-10-15 10:24:08.066 [error] Error getting user commits: Failed to execute git
+2025-10-15 10:25:55.187 [info] multiCodebaseIndexingJob dispose
+2025-10-15 10:25:55.187 [info] Aborting indexing job.
+2025-10-15 10:25:55.187 [info] Setting global status from status tracker: synced
+2025-10-15 10:25:55.187 [info] Doing a startup handshake.
+2025-10-15 10:25:55.282 [info] Finished computing merkle tree in 86.02091800002381 ms.
+2025-10-15 10:25:55.283 [info] Doing the initial handshake with hash: 371b7626d76a25ab3150aa9143c6ac2ce692d1da33c3b0fb73f2cc832d3b7b91
+2025-10-15 10:25:55.286 [info] Computed simhash vector of length: 256
+2025-10-15 10:25:55.286 [info] Path key hash: bfaa47f31ad8c0c88db1f541cdbc2c0250f5551276f6111cac01d75fbefbd758
+2025-10-15 10:25:55.286 [info] Handshake start
+2025-10-15 10:25:55.454 [info] Handshake timing: 169.3891270000022, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-10-15 10:25:55.454 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-10-15 10:25:55.454 [info] Starting fast remote sync.
+2025-10-15 10:25:55.457 [info] Total num embeddable files: 372
+2025-10-15 10:25:55.457 [info] Root hash: 371b7626d76a25ab3150aa9143c6ac2ce692d1da33c3b0fb73f2cc832d3b7b91
+2025-10-15 10:25:55.457 [info] In the out of sync case.
+2025-10-15 10:25:55.465 [info] Waiting on semaphore to be released 1
+2025-10-15 10:25:55.659 [info] Waiting on semaphore to be released 1
+2025-10-15 10:25:55.860 [info] Waiting on semaphore to be released 1
+2025-10-15 10:25:56.063 [info] Waiting on semaphore to be released 1
+2025-10-15 10:25:56.265 [info] Waiting on semaphore to be released 1
+2025-10-15 10:25:56.265 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:25:56.466 [info] Waiting on semaphore to be released 1
+2025-10-15 10:25:56.466 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:25:56.666 [info] Waiting on semaphore to be released 1
+2025-10-15 10:25:56.666 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:25:56.866 [info] Waiting on semaphore to be released 1
+2025-10-15 10:25:56.866 [info] [startSync]: sending sync merkle subtree batch of size 3
+2025-10-15 10:25:57.066 [info] setting numJobsToGo to 7
+2025-10-15 10:25:57.066 [info] [startSync]: numJobs: 7
+2025-10-15 10:25:57.068 [info] Uploading 7 files.
+2025-10-15 10:25:57.069 [info] Total number of files to embed: 372
+2025-10-15 10:25:57.069 [info] Not aborted
+2025-10-15 10:25:57.069 [info] Starting while loop.
+2025-10-15 10:25:57.119 [info] syncing batch of 2 files and 42393 bytes
+2025-10-15 10:25:59.451 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/remoteexthost.log
+2025-10-15 10:25:59.451 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/vscode.git/Git.log
+2025-10-15 10:25:59.454 [info] syncing batch of 4 files and 218293 bytes
+2025-10-15 10:26:02.860 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+2025-10-15 10:26:02.860 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval/embeddable_files.txt
+2025-10-15 10:26:02.861 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Metabase/dashboards
+2025-10-15 10:26:02.861 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Metabase/queries
+2025-10-15 10:26:03.065 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./sqlmesh/models
+2025-10-15 10:26:03.232 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-10-15 10:26:03.589 [info] Finished indexing repository.
+2025-10-15 10:26:03.590 [info] Indexing job successfully done or aborted.
+2025-10-15 10:31:48.728 [info] multiCodebaseIndexingJob dispose
+2025-10-15 10:31:48.730 [info] Aborting indexing job.
+2025-10-15 10:31:48.730 [info] Setting global status from status tracker: synced
+2025-10-15 10:31:48.730 [info] Doing a startup handshake.
+2025-10-15 10:31:48.832 [info] Finished computing merkle tree in 91.79031800001394 ms.
+2025-10-15 10:31:48.833 [info] Doing the initial handshake with hash: 4461fb72574dff930d281076ac516751dc136f7b5eeebce7ca7937842f68d456
+2025-10-15 10:31:48.837 [info] Computed simhash vector of length: 256
+2025-10-15 10:31:48.837 [info] Path key hash: bfaa47f31ad8c0c88db1f541cdbc2c0250f5551276f6111cac01d75fbefbd758
+2025-10-15 10:31:48.837 [info] Handshake start
+2025-10-15 10:31:48.999 [info] Handshake timing: 163.2681389999343, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-10-15 10:31:49.000 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"3491bea1-2849-48db-9622-ddaa4451cdba","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-10-15 10:31:49.000 [info] Starting fast remote sync.
+2025-10-15 10:31:49.003 [info] Total num embeddable files: 376
+2025-10-15 10:31:49.005 [info] Root hash: 4461fb72574dff930d281076ac516751dc136f7b5eeebce7ca7937842f68d456
+2025-10-15 10:31:49.005 [info] In the out of sync case.
+2025-10-15 10:31:49.016 [info] Waiting on semaphore to be released 1
+2025-10-15 10:31:49.206 [info] Waiting on semaphore to be released 1
+2025-10-15 10:31:49.407 [info] Waiting on semaphore to be released 1
+2025-10-15 10:31:49.610 [info] Waiting on semaphore to be released 1
+2025-10-15 10:31:49.810 [info] Waiting on semaphore to be released 1
+2025-10-15 10:31:49.810 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:31:50.008 [info] Waiting on semaphore to be released 1
+2025-10-15 10:31:50.008 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:31:50.210 [info] Waiting on semaphore to be released 1
+2025-10-15 10:31:50.211 [info] [startSync]: sending sync merkle subtree batch of size 2
+2025-10-15 10:31:50.408 [info] Waiting on semaphore to be released 1
+2025-10-15 10:31:50.612 [info] Waiting on semaphore to be released 1
+2025-10-15 10:31:50.612 [info] [startSync]: sending sync merkle subtree batch of size 3
+2025-10-15 10:31:50.808 [info] Waiting on semaphore to be released 1
+2025-10-15 10:31:54.088 [info] setting numJobsToGo to 11
+2025-10-15 10:31:54.092 [info] [startSync]: numJobs: 11
+2025-10-15 10:31:54.422 [info] Uploading 11 files.
+2025-10-15 10:31:54.423 [info] Total number of files to embed: 376
+2025-10-15 10:31:54.424 [info] Not aborted
+2025-10-15 10:31:54.424 [info] Starting while loop.
+2025-10-15 10:31:54.480 [info] syncing batch of 2 files and 61331 bytes
+2025-10-15 10:31:57.237 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/remoteexthost.log
+2025-10-15 10:31:57.237 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/vscode.git/Git.log
+2025-10-15 10:31:57.240 [info] syncing batch of 4 files and 128427 bytes
+2025-10-15 10:31:59.095 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+2025-10-15 10:31:59.095 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/User/workspaceStorage/cb515dff1601d9de3f3ca44228566c46/anysphere.cursor-retrieval/high_level_folder_description.txt
+2025-10-15 10:31:59.095 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Analytics-repo/docs
+2025-10-15 10:31:59.095 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Analytics-repo/README.md
+2025-10-15 10:31:59.098 [info] syncing batch of 5 files and 0 bytes
+2025-10-15 10:31:59.386 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Analytics-repo/Metabase/dashboards
+2025-10-15 10:31:59.387 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Analytics-repo/Metabase/queries
+2025-10-15 10:31:59.387 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Analytics-repo/sqlmesh/models
+2025-10-15 10:31:59.387 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./Analytics-repo/sqlmesh/tests
+2025-10-15 10:31:59.387 [info] Completed job successfully: 3491bea1-2849-48db-9622-ddaa4451cdba ./data/logs/20251015T100921/exthost2/vscode.markdown-language-features/Markdown.log
+2025-10-15 10:31:59.556 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-10-15 10:31:59.890 [info] Finished indexing repository.
+2025-10-15 10:31:59.890 [info] Indexing job successfully done or aborted.
+2025-10-15 10:34:06.820 [error] Error getting user commits: Failed to execute git

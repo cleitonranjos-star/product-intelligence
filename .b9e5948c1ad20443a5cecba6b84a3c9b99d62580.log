@@ -1,0 +1,20 @@
+Server bound to 127.0.0.1:37827 (IPv4)
+Extension host agent listening on 37827
+
+[10:09:21] 
+
+
+
+
+[10:09:21] Extension host agent started.
+[10:09:21] Started initializing default profile extensions in extensions installation folder. file:///home/cleitonanjos/.cursor-server/extensions
+[10:09:21] Completed initializing default profile extensions in extensions installation folder. file:///home/cleitonanjos/.cursor-server/extensions
+[10:09:23] [127.0.0.1][7435e3d0][ManagementConnection] New connection established.
+[10:09:23] [127.0.0.1][c0de686f][ExtensionHostConnection] New connection established.
+[10:09:23] Getting extensions control
+[10:09:23] [127.0.0.1][c0de686f][ExtensionHostConnection] <748> Launched Extension Host Process.
+[10:14:08] [127.0.0.1][7435e3d0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:14:08] [127.0.0.1][c0de686f][ExtensionHostConnection] <748> Extension Host Process exited with code: 0, signal: null.
+[10:14:11] [127.0.0.1][f43129d4][ManagementConnection] New connection established.
+[10:14:11] [127.0.0.1][d69aa4e5][ExtensionHostConnection] New connection established.
+[10:14:11] [127.0.0.1][d69aa4e5][ExtensionHostConnection] <2848> Launched Extension Host Process.

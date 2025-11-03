@@ -1,0 +1,17 @@
+2025-10-15 10:09:21.401 [info] 
+
+
+
+
+2025-10-15 10:09:21.401 [info] Extension host agent started.
+2025-10-15 10:09:21.404 [info] Started initializing default profile extensions in extensions installation folder. file:///home/cleitonanjos/.cursor-server/extensions
+2025-10-15 10:09:21.413 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/cleitonanjos/.cursor-server/extensions
+2025-10-15 10:09:23.051 [info] [127.0.0.1][7435e3d0][ManagementConnection] New connection established.
+2025-10-15 10:09:23.052 [info] [127.0.0.1][c0de686f][ExtensionHostConnection] New connection established.
+2025-10-15 10:09:23.061 [info] Getting extensions control
+2025-10-15 10:09:23.150 [info] [127.0.0.1][c0de686f][ExtensionHostConnection] <748> Launched Extension Host Process.
+2025-10-15 10:14:08.119 [info] [127.0.0.1][7435e3d0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-10-15 10:14:08.190 [info] [127.0.0.1][c0de686f][ExtensionHostConnection] <748> Extension Host Process exited with code: 0, signal: null.
+2025-10-15 10:14:11.452 [info] [127.0.0.1][f43129d4][ManagementConnection] New connection established.
+2025-10-15 10:14:11.467 [info] [127.0.0.1][d69aa4e5][ExtensionHostConnection] New connection established.
+2025-10-15 10:14:11.471 [info] [127.0.0.1][d69aa4e5][ExtensionHostConnection] <2848> Launched Extension Host Process.
