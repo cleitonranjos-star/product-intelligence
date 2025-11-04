@@ -1,0 +1,15 @@
+2025-10-16 09:57:00.327 [info] Revived process, old id cb515dff1601d9de3f3ca44228566c46-15 -> new id 17
+2025-10-16 09:57:26.451 [info] Revived process, old id cb515dff1601d9de3f3ca44228566c46-19 -> new id 20
+2025-10-16 10:43:12.990 [info] Revived process, old id cb515dff1601d9de3f3ca44228566c46-21 -> new id 26
+2025-10-16 10:48:57.727 [info] Revived process, old id cb515dff1601d9de3f3ca44228566c46-28 -> new id 31
+2025-10-16 10:48:57.727 [info] Revived process, old id cb515dff1601d9de3f3ca44228566c46-29 -> new id 32
+2025-10-16 10:48:57.859 [info] Expanding terminal instance, old id cb515dff1601d9de3f3ca44228566c46-28 -> new id 31
+2025-10-16 10:48:58.301 [warning] Persistent process "31": Process had no disconnect runners but was an orphan
+2025-10-16 10:48:58.301 [info] Persistent process reconnection "31"
+2025-10-16 10:48:58.313 [info] Persistent process "31": Replaying 70 chars and 1 size events
+2025-10-16 10:51:54.678 [info] Revived process, old id cb515dff1601d9de3f3ca44228566c46-31 -> new id 36
+2025-10-16 10:51:54.678 [info] Revived process, old id cb515dff1601d9de3f3ca44228566c46-34 -> new id 37
+2025-10-16 10:51:54.773 [info] Expanding terminal instance, old id cb515dff1601d9de3f3ca44228566c46-31 -> new id 36
+2025-10-16 10:51:55.722 [warning] Persistent process "36": Process had no disconnect runners but was an orphan
+2025-10-16 10:51:55.722 [info] Persistent process reconnection "36"
+2025-10-16 10:51:55.761 [info] Persistent process "36": Replaying 100 chars and 1 size events
